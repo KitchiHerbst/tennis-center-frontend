@@ -1,10 +1,13 @@
 import Link from "next/link";
+import logo from "../public/logo.png"
+import styles from "../styles/Navbar.module.css";
 
 const Navbar = () => {
+    
   return (
-    <nav>
+    <nav className='nav-bar'>
       <div className="logo">
-        <h1>Tristons Tennis Center</h1>
+        <img source={logo}/>
       </div>
       <Link href="/">
         <a>Home</a>
