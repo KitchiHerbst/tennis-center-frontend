@@ -1,9 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap");
 
+body {
+  background-color: #f5f5f5;
+  color: #3c3c3c;
+  font-family: "Roboto";
+}
 
+/* .content {
+  /* margin: 0 auto; */
+/* max-width: 960px; */
+/* }  */
+
+a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+nav {
+  margin: 0px auto 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 30px;
+  /* border-bottom: 1px solid; */
+}
+
+nav a {
+  margin-left: 30px;
+  padding-bottom: 40px;
+  font-size: 20px;
+}
+
+nav .logo {
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 30px 0;
+  margin-top: 60px;
+  color: #7a7a7a;
+}
 
 /* colors
-  F5F5F5 sizzling red
+  FF5C61 sizzling red
   7D73D3 violet blue crayola
-  FF5A5F white ish
+  F5F5F5 white ish
   3C3C3C black ish
 */
