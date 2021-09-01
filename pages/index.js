@@ -1,7 +1,12 @@
 import BoxCard from "../components/BoxCard";
 import Footer from "../components/Footer";
+import ImageSlider from "../components/ImageSlider";
 import Navbar from "../components/Navbar";
 import styles from "../styles/Home.module.css";
+
+import pic1 from "../public/stock-photos/overhead-tennis-court.jpg";
+import pic2 from "../public/stock-photos/tennis balls on court.jpg";
+import pic3 from "../public/stock-photos/tennis-ball-spinning.jpg";
 
 export default function Home() {
   return (
@@ -15,6 +20,13 @@ export default function Home() {
       </p>
       <div>
         Image slideshow placeholder
+        <ImageSlider
+          images={[
+            { pic: pic1, desc: "spinning tennis ball" },
+            { pic: pic2, desc: "balls on court" },
+            { pic: pic3, desc: "court from above" },
+          ]}
+        />
       </div>
 
       <div className={styles.boxContainer}>
