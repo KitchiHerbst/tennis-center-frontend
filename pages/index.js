@@ -6,10 +6,12 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div className={styles.home}>
-      <h1>Welcome to <span className={styles.name}>TIH Tennis</span></h1>
+      <h1>
+        Welcome to <span className={styles.name}>TIH Tennis</span>
+      </h1>
       <p>
         Improve your tennis skills with a wide variety of options from private
-        lessons, renting a court to group classes.
+        lessons, group classes or renting a court.
       </p>
       <div className={styles.homeBody}>
         <div className={styles.boxContainer}>
@@ -21,7 +23,7 @@ export default function Home() {
           />
           <BoxCard
             title="Adults"
-            description="Looking for personal instruction or group classes we have something for everyone at any level"
+            description="Looking for personal instruction or group classes we have something for everyone at any level!"
             style={styles.boxCard}
             link="/adults"
           />
