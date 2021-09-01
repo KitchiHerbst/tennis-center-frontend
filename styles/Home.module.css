@@ -1,1 +1,35 @@
+.home {
+  height: 100vh;
+}
 
+.name {
+  color: #ff5c61;
+}
+
+.home h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.home p {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.homeBody {
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.boxCard {
+  text-align: center;
+  background-color: #7d73d3;
+  color: #f5f5f5;
+  cursor: pointer;
+  width: 40%;
+}
