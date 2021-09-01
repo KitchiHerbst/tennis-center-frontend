@@ -18,12 +18,12 @@
   margin-bottom: 100px;
 }
 
-.homeBody {
-}
+
 
 .boxContainer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .boxCard {
@@ -33,6 +33,8 @@
   cursor: pointer;
   width: 40%;
   padding: 10px 20px;
+  border-radius: 5px;
+  margin-bottom: 75px;
 }
 
 .boxCard h2 {

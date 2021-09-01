@@ -13,21 +13,35 @@ export default function Home() {
         Improve your tennis skills with a wide variety of options from private
         lessons, group classes or renting a court.
       </p>
-      <div className={styles.homeBody}>
-        <div className={styles.boxContainer}>
-          <BoxCard
-            title="Juniors"
-            description="Whether your kiddo is just starting or advanced we have something for them!"
-            style={styles.boxCard}
-            link="/juniors"
-          />
-          <BoxCard
-            title="Adults"
-            description="Looking for personal instruction or group classes we have something for everyone at any level!"
-            style={styles.boxCard}
-            link="/adults"
-          />
-        </div>
+      <div>
+        Image slideshow placeholder
+      </div>
+
+      <div className={styles.boxContainer}>
+        <BoxCard
+          title="Juniors"
+          description="Whether your kiddo is just starting or advanced we have something for them!"
+          style={styles.boxCard}
+          link="/juniors"
+        />
+        <BoxCard
+          title="Adults"
+          description="Looking for personal instruction or group classes we have something for everyone at any level!"
+          style={styles.boxCard}
+          link="/adults"
+        />
+        <BoxCard
+          title="Rent a Court"
+          description="Book a court time now!"
+          style={styles.boxCard}
+          link="/adults"
+        />
+        <BoxCard
+          title="Staff"
+          description="Meet our Staff"
+          style={styles.boxCard}
+          link="/staff"
+        />
       </div>
     </div>
   );
