@@ -1,7 +1,6 @@
 import BoxCard from "../components/BoxCard";
-import Footer from "../components/Footer";
 import ImageSlider from "../components/ImageSlider";
-import Navbar from "../components/Navbar";
+
 import styles from "../styles/Home.module.css";
 
 import pic1 from "../public/stock-photos/overhead-tennis-court.jpg";
@@ -18,8 +17,7 @@ export default function Home() {
         Improve your tennis skills with a wide variety of options from private
         lessons, group classes or renting a court.
       </p>
-      <div>
-        Image slideshow placeholder
+      <div className={styles.slider}>
         <ImageSlider
           images={[
             { pic: pic1, desc: "spinning tennis ball" },
