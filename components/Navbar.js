@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 import logo from "../public/logo.png";
 import styles from "../styles/Navbar.module.css";
 
@@ -7,15 +7,15 @@ const Navbar = () => {
   return (
     <nav className="nav-bar">
       <div className="logo">
-        <Image src={logo} alt="logo" />
+        <Link href="/">
+          <Image src={logo} alt="logo" />
+        </Link>
       </div>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-      <Link href="/about">
+
+      <Link href="/juniors">
         <a>Juniors</a>
       </Link>
-      <Link href="/about">
+      <Link href="/adults">
         <a>Adults</a>
       </Link>
       <Link href="/about">
