@@ -18,24 +18,6 @@
   margin-bottom: 100px;
 }
 
-.slider {
-  overflow: hidden;
-  /* width: 100%; */
-}
-
-.slider figure {
-  position: relative;
-  /* width: 300%; */
-  margin: 0;
-  left: 0;
-  animation: 5s slider infinite;
-}
-
-.slider figure img {
-  width: 33.33%;
-  float: left;
-}
-
 .boxContainer {
   display: flex;
   justify-content: space-around;
@@ -55,4 +37,23 @@
 
 .boxCard h2 {
   font-size: 35px;
+}
+
+
+.slideshow {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 700px;
+}
+
+.slideshowSlider {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide {
+  height: 400px;
+  width: 100%;
+  display: inline-block;
+  
 }

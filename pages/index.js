@@ -3,9 +3,9 @@ import ImageSlider from "../components/ImageSlider";
 
 import styles from "../styles/Home.module.css";
 
-import pic1 from "../public/stock-photos/overhead-tennis-court.jpg";
-import pic2 from "../public/stock-photos/tennis balls on court.jpg";
-import pic3 from "../public/stock-photos/tennis-ball-spinning.jpg";
+import pic1 from "../public/stock-photos/photo1.jpg";
+import pic2 from "../public/stock-photos/photo2.jpg";
+import pic3 from "../public/stock-photos/photo3.jpg";
 
 export default function Home() {
   return (
@@ -17,13 +17,15 @@ export default function Home() {
         Improve your tennis skills with a wide variety of options from private
         lessons, group classes or renting a court.
       </p>
-      <div className={styles.slider}>
+
+      <div className={styles.slideshow}>
         <ImageSlider
           images={[
             { pic: pic1, desc: "spinning tennis ball" },
             { pic: pic2, desc: "balls on court" },
-            { pic: pic3, desc: "court from above" },
+            { pic: pic3, desc: "court from above" }
           ]}
+          styles={[styles.slideshowSlider, styles.slide]}
         />
       </div>
 
@@ -32,25 +34,25 @@ export default function Home() {
           title="Juniors"
           description="Whether your kiddo is just starting or advanced we have something for them!"
           style={styles.boxCard}
-          link="/juniors"
+          link={"/juniors"}
         />
         <BoxCard
           title="Adults"
           description="Looking for personal instruction or group classes we have something for everyone at any level!"
           style={styles.boxCard}
-          link="/adults"
+          link={"/adults"}
         />
         <BoxCard
           title="Rent a Court"
           description="Book a court time now!"
           style={styles.boxCard}
-          link="/adults"
+          link={"/adults"}
         />
         <BoxCard
           title="Staff"
           description="Meet our Staff"
           style={styles.boxCard}
-          link="/staff"
+          link={"/staff"}
         />
       </div>
     </div>

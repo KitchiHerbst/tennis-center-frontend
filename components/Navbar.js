@@ -7,21 +7,23 @@ const Navbar = () => {
   return (
     <nav className="nav-bar">
       <div className="logo">
-        <Link href="/">
-          <Image src={logo} alt="logo" />
+        <Link href={"/"}>
+          <div>
+            <Image src={logo} alt="logo" />
+          </div>
         </Link>
       </div>
 
-      <Link href="/juniors">
+      <Link href={"/juniors"}>
         <a>Juniors</a>
       </Link>
-      <Link href="/adults">
+      <Link href={"/adults"}>
         <a>Adults</a>
       </Link>
-      <Link href="/about">
+      <Link href={"/about"}>
         <a>About</a>
       </Link>
-      <Link href="/staff">
+      <Link href={"/staff"}>
         <a>Staff</a>
       </Link>
     </nav>
